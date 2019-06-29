@@ -18,9 +18,9 @@ class Train
 #цепляем/отцепляем вагон, если скорость не 0.
   def update_carridge_count(action)
     if @speed != 0
-      if action.to_s == :add
+      if action == :add
         @carridge_count += 1
-      elsif action.to_s == :delete
+      elsif action == :delete
         @carridge_count -= 1
       else
         puts "Неизвестная команда!"
