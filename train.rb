@@ -72,5 +72,4 @@ class Train
   def index_for(station)
     current_route.index(station)
   end
-
 end
