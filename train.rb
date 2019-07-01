@@ -24,7 +24,7 @@ class Train
 
   def delete_carrige
     if (@speed).zero? && @carridge_count != 0
-    @carridge_count -= 1
+      @carridge_count -= 1
     end
   end
 
