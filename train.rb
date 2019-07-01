@@ -18,7 +18,7 @@ class Train
 #цепляем/отцепляем вагон, если скорость не 0.
   def add_carridge
     if (@speed).zero?
-        @carridge_count += 1
+      @carridge_count += 1
     end
   end
 
